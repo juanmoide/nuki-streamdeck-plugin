@@ -1,0 +1,23 @@
+{
+  "Name": "Nuki",
+  "Description": "Control your Nuki devices.",
+  "dev.juanmoi.nuki.lock": {
+    "Name": "Lock / Unlock",
+    "Tooltip": "Lock or unlock a Nuki Smart Lock.",
+    "States": [
+    {
+      "Name": "Lock"
+    },
+    {
+      "Name": "Unlock"
+    }]
+  },
+  "localization": {
+    "PI": {
+      "Bridges": "Bridges",
+      "NoDevices": "No devices found",
+      "Connect": "Connect",
+      "Reconnect": "Reconnect"
+    }
+  }
+}

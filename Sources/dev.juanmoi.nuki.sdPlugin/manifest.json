@@ -1,0 +1,44 @@
+{
+  "Actions": [
+    {
+      "Icon": "plugin/images/actions/lock",
+      "Name": "Lock / Unlock",
+      "States": [
+        {
+          "Image": "plugin/images/icons/lock",
+          "Name": "Lock"
+        },
+        {
+          "Image": "plugin/images/icons/unlock",
+          "Name": "Unlock"
+        }
+      ],
+      "Tooltip": "Lock or unlock a Smart Lock",
+      "UUID": "dev.juanmoi.nuki.lock"
+    }
+  ], 
+  "Name": "Nuki Controller", 
+  "Icon": "plugin/images/icons/plugin",
+  "Description": "Take the control of your Nuki Smart Devices", 
+  "URL": "https://github.com/juanmoide/nuki-streamdeck-plugin",
+  "Author": "juanmoide", 
+  "CodePath": "plugin/app.html",
+  "PropertyInspectorPath": "pi/index.html",
+  "DefaultWindowSize": [500, 650],
+  "SDKVersion": 2,
+  "Version": "0.1",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}

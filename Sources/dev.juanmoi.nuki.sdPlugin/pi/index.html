@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>dev.juanmoi.nuki.pi</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/sdpi.css">
+        <!-- Import style sheets -->
+        <!-- Import scripts -->
+        <script src="../plugin/js/utils.js"></script>
+        <script src="../plugin/js/nuki/nuki.js"></script>
+        <script src="js/pi.js"></script>
+        <script src="js/lockPI.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <!-- Property Inspector -->
+        <div class="sdpi-wrapper">
+            <!-- Device select -->
+            <div class="sdpi-item">
+                <div class="sdpi-item-label" id="devices-label"></div>
+                <select class="sdpi-item-value select" id="device-select">
+                    <option id="no-devices" value="no-devices" disabled></option>
+                </select>
+                <button class="sdpi-item-value" id="connect-bridge-btn"></button>
+           </div>
+        </div>
+    </body>
+</html>

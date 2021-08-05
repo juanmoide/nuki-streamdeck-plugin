@@ -1,0 +1,22 @@
+{
+  "Name": "Nuki",
+  "Description": "Controla tus dispositivos Nuki.",
+  "dev.juanmoi.nuki.lock": {
+    "Name": "Bloquear / Desbloquear",
+    "Tooltip": "Bloquea o desbloquea un Nuki Smart Lock.",
+    "States": [{
+      "Name": "Bloquear"
+    },
+    {
+      "Name": "Desbloquear"
+    }]
+  },
+  "localization": {
+    "PI": {
+      "Bridges": "Bridges",
+      "NoDevices": "No se encontraron dispositivos",
+      "Connect": "Conectar",
+      "Reconnect": "Reconectar"
+    }
+  }
+}

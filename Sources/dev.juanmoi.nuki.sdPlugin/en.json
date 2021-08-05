@@ -1,0 +1,57 @@
+{
+  "Name": "Nuki",
+  "Description": "Control your Nuki devices.",
+  "dev.juanmoi.nuki.lock": {
+    "Name": "Lock / Unlock",
+    "Tooltip": "Lock or unlock a Nuki Smart Lock.",
+    "States": [
+    {
+      "Name": "Lock"
+    },
+    {
+      "Name": "Unlock"
+    }]
+  },
+  "localization": {
+    "PI": {
+      "Devices": "Devices",
+      "NoDevices": "No devices found",
+      "Connect": "Connect",
+      "Reconnect": "Reconnect"
+    },
+    "setup": {
+      "Intro": {
+        "Title" : "Add Bridge",
+        "Description": "Pair Nuki bridges to control your Nuki devices.",
+        "Start": "Discover Bridges",
+        "Close": "Not Now"
+      },
+      "Discovery": {
+        "Title" : "Discovering Bridges...",
+        "TitleNone" : "No Bridges Found",
+        "TitleOne" : "One Bridge Found",
+        "TitleMultiple" : "{{ number }} Bridges Found",
+        "DescriptionFound": "Start pairing now?",
+        "DescriptionNone": "Make sure your bridge is switched on and connected to the network.",
+        "Pair": "Pair",
+        "Close": "Close",
+        "Retry": "Try Again"
+      },
+      "Pairing": {
+        "Title" : "Pairing...",
+        "Description": "Please press the link button on the bridge now.",
+        "Close": "Close",
+        "Retry": "Try Again",
+        "Continue": "Continue",
+        "NoSynchedBridges": "All bridges are not paired."
+      },
+      "Save": {
+        "Title" : "Bridge Added",
+        "TitleMultiple" : "Multiple Bridges Added",
+        "Description": "The bridge has been paired sucessfully.",
+        "DescriptionMultiple": "All bridges have been paired sucessfully.",
+        "Save": "Done"
+      }
+    }
+  }
+}
